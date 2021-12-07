@@ -1,0 +1,97 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+.card {
+  box-shadow: 10px 10px hsl(214, 52%, 11%);
+  position: relative;
+  top: 250px;
+  margin: auto;
+  width: 220px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: cent;
+  background-color: hsl(216, 50%, 16%);
+}
+h1 {
+  font-weight: 600;
+}
+.nft-img {
+  border-radius: 12px;
+  width: 220px;
+  height: auto;
+}
+.nft-overlay {
+  opacity: 0;
+  border-radius: 12px;
+  bottom: 185px;
+  background: hsla(178, 100%, 50%, 0.5);
+  position: absolute;
+  width: 220px;
+  height: 220px;
+}
+.nft-overlay:hover {
+  opacity: 1;
+}
+.overlay-content {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+.nft-title {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  margin: 10px 0px;
+}
+.nft-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+.nft-description {
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(215, 51%, 70%);
+  margin-top: 0px;
+}
+.nft-time {
+  float: right;
+  margin-left: 35px;
+  color: hsl(215, 51%, 70%);
+}
+.nft-details {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nft-price {
+  color: hsl(178, 100%, 50%);
+}
+.eth-icon {
+  position: relative;
+  top: 3px;
+}
+.clock-icon {
+  position: relative;
+  top: 3px;
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  border: none;
+}
+.pfp {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  height: 22px;
+  vertical-align: middle;
+}
+.creator-text {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  margin: 7px;
+  display: inline-block;
+}
+.footer-name {
+  color: hsl(0, 0%, 100%);
+}
+.footer-name:hover {
+  color: hsl(178, 100%, 50%);
+}
