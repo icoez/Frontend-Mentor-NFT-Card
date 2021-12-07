@@ -35,10 +35,9 @@ h1 {
 }
 .overlay-content {
   position: relative;
-  top: 20px;
+  top: 90px;
   text-align: center;
   vertical-align: middle;
-  line-height: 220px;
 }
 .nft-title {
   font-size: 18px;
